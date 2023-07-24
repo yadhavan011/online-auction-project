@@ -1,0 +1,54 @@
+
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+  }
+  
+  .slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .slider-container img {
+    max-width: 100%;
+    height: auto;
+    /* Add any additional styles for the slider images */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-container button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .admin-button {
+    background-color: #ff4500;
+  }
+  
+  .seller-button {
+    background-color: #00cc00;
+  }
+  
+  .bidder-button {
+    background-color: #ffc107;
+  }
+
+  

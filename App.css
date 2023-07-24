@@ -1,0 +1,19 @@
+.App {
+   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:fit-content;
+}
+
+body {
+  background: linear-gradient(to bottom right, #ffcccc, #99ccff);
+  background-size: cover;
+  background-position: center;
+}
+
+
+/*background: #74ebd5;   
+  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);   
+  background: linear-gradient(to right, #ACB6E5, #74ebd5);   background-repeat: no-repeat;*/

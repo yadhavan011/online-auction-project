@@ -1,0 +1,55 @@
+.image-slider {
+    position:center;
+    height: 700px;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+ }
+ .image {
+    width: 522px;
+    height: 339px;
+    border-radius: 12px;
+ }
+ .left {
+    position: absolute;
+    left: 3rem;
+    top: 50%;
+    font-size: 1rem;
+    color: blue;
+    z-index: 5;
+    cursor: pointer;
+    user-select: none;
+ }
+ .right {
+    position: absolute;
+    right: 3rem;
+    top: 50%;
+    font-size: 2rem;
+    color: blue;
+    z-index: 5;
+    cursor: pointer;
+    user-select: none;
+ }
+ .currentSlide {
+    transition-duration: 0.5s ease;
+    opacity: 0;
+ }
+ .currentSlide.active {
+    opacity: 1;
+    transition-duration: 0.5s;
+    transform: scale(1.2);
+ }
+ h2 {text-align: center;
+color: red;
+font-size: 40px;
+}
+
+ .image {
+    width: 950px;
+    height: 540px;
+    border-radius: 3px;
+    left: 10%;
+
+}

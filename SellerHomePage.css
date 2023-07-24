@@ -1,0 +1,12 @@
+div[name="b"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 1700px;
+}
+body {
+  background: linear-gradient(to bottom right, #ffcccc, #99ccff);
+  background-size: cover;
+  background-position: center;
+}
